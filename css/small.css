@@ -51,6 +51,8 @@ footer {
     font-family: var(--heading-font);
     color: white;
 	text-shadow: 2px 2px 4px #000000;
+    font-size: 1.2em;
+    font-weight: 700;
 
 }
 
@@ -63,14 +65,14 @@ main {
 h1 {
     font-family: 'Oswald', sans-serif;
     color: var(--secondary-color);
-    text-shadow: 2px 2px 1.5px #888888;
+    text-shadow: 2px 2px 4px #000000;
     font-size: 2em;
 }
 
 h2{
     font-family: var(--paragraph-font);
     color: var(--accent1-color); 
-    text-shadow: 2px 2px 3px #888888;
+    text-shadow: 2px 2px 4px #000000;
     margin-bottom: .2em;
 }
 li {
