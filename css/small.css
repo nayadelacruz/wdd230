@@ -32,7 +32,7 @@ header, footer {
 
 img {
     border: var(--primary-color) 1px solid;
-    box-shadow: 5px 10px 5px #888888;
+    box-shadow: 2px 2px 4px #888888;
 }
 
 header {
@@ -49,8 +49,8 @@ footer {
     justify-content: center;
     align-items: center;
     font-family: var(--heading-font);
-    color: var(--secondary-color);
-    box-shadow: 5px 10px 8px #888888;
+    color: white;
+	text-shadow: 2px 2px 4px #000000;
 
 }
 
@@ -63,7 +63,7 @@ main {
 h1 {
     font-family: 'Oswald', sans-serif;
     color: var(--secondary-color);
-    text-shadow: 2px 2px 3px #888888;
+    text-shadow: 2px 2px 1.5px #888888;
     font-size: 2em;
 }
 
@@ -85,7 +85,7 @@ li {
 
 .foot2{
     margin-top: 4px;
-    color: green;
+    color: white;
 }
 
 
