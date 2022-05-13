@@ -1,12 +1,11 @@
-h1, h2, h3, p {
+h1, h2, h3, p, a {
     font-family: 'Open Sans', sans-serif;
 }
  /* *** HEADER *** */
  header {
      background-color: #DB5A42;
-     display:flex;
-     flex-direction: column;
-     align-items: center;
+     text-align: center;
+	 padding-bottom: .1em;
  }
 
  h1, .greenBack {
@@ -14,44 +13,37 @@ h1, h2, h3, p {
  }
 
  h1{
-     margin: 1em 0em .2em 0em;
+     padding: 1.2em 0 .3em;
+	 margin: 0;
  }
 
  .greenBack {
      margin: 0em 0em 1em 0em;
-	 padding: 0px;
+	 padding-bottom: 0.5em;
+	 padding-top: 0;
      font-size: 1.5em;
 	 background-color: #DB5A42;
  }
 
  /* *** Nav Bar *** */
  nav {
-	background-color: white;
-	margin: 0 auto;
+	background-color: black;
+	margin: 0rem auto;
+	padding: .5rem;
+	
 }
 nav ul {
-	list-style-type: none;
-	overflow: hidden;
     text-align: center;
+	list-style-type: none;
     
-}
-nav ul li  {
-	display: block;
-	color: #DB5A42;
-	text-align: center;
-	padding: 0.75rem 1em;
-	text-decoration:none;
-    font-family: 'Open Sans', sans-serif;
-	font-size: 1.2em;
-	background: linear-gradient(90deg, transparent, yellow, transparent) top /
-		var(--d, 0) 10px no-repeat;
-	transition: 0.5s;
-
 }
 
 a {
     text-decoration: none;
-    color:#DB5A42;
+    color: white;
+	display: block;
+	padding: .5em;
+	
 }
 
 .active {
@@ -59,6 +51,10 @@ a {
 }
 
 /* ----------MAIN ------------ */
+main {
+	min-height: 25em;
+}
+
 h2{
 	background-color: #DB5A42;
 	color:white;
@@ -88,26 +84,26 @@ p{
 /* *** Purpose Page *** */
 #mainPurpose {
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: auto auto auto;
 }
 
 #purpose {
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row:1/2;
 	background-color: #FCF0EA;
 	margin: 1em 0em;
 }
 
 #domain {
-	grid-column:1/2;
+	grid-column:1;
 	grid-row: 2/3;
 	background-color: #FCF0EA;
 	margin: 1em 0em;
 }
 
 #logo {
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row: 3/4;
 	background-color: #FCF0EA;
 	margin: 1em 0em;
@@ -116,14 +112,12 @@ p{
 /* ------- FOOTER ------ */
 
 footer {
-	display: flex;
-	flex-direction: column;
-	justify-items: center;
-	align-items: center;
+	text-align: center;
 	background-color:#DB5A42;
 	color: white;
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 1em;
+	padding: .7em;
 
 }
 
@@ -197,31 +191,31 @@ h3{
 /* ----------- Color Scheme * ----------------*/
 #colorScheme{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: auto auto auto;
-	
-	margin: 1em;
 }
 
 #schemeTitle{
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row: 1/2;
 	background-color: #DB5A42;
+	text-align: center;
+	margin: .5em;
 	
 }
 
 #primaryColor {
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row: 2/3;
-	/*background-color: #E3A587;*/
 	margin: 1em;
+	text-align: center;
 }
 
 #secundaryColor {
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row: 3/4;
-	/*background-color: #E3A587;*/
 	margin: 1em;
+	text-align: center;
 }
 
 .color {
@@ -234,21 +228,20 @@ h3{
 
 #typography{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: auto auto auto;
-	
 	margin: 1em;
 }
 
 #titleTypography{
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row: 1/2;
 	background-color: #DB5A42;
 	
 }
 
 #catamaran {
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row: 2/3;
 	margin: 1em;
 	background-color: #FCF0EA;
@@ -256,7 +249,7 @@ h3{
 }
 
 #example{
-	grid-column: 1/2;
+	grid-column: 1;
 	grid-row: 3/4;
 	margin: 1em;
 	background-color: #FCF0EA;
