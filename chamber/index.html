@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en-us"> 
+<html lang = "en"> 
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Assigment Chamber of commerce menu and header">
@@ -13,37 +13,89 @@
 
    <!--  ******* FONTS *********-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Koulen&family=Open+Sans:wght@300&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
 
    <!-- ******* SCRIPTS ********* -->
    <script src="js/script.js" defer></script>
   </head>
   <body>
-      <header>
-        <img src="images/logoChamber.png" alt="logo of the Chamber of Commerce" height="150">
-        <h1>REXBURG CHAMBER</h1>
-        <p>of Commerce</p>
-      
-      <nav>
-          <ul>
-              <li>Discover</li>
-              <li>Directory</li>
-              <li>Join</li>
-              <li>Contact</li>
-              <li></li>
+    <header>
+      <div id="topHeader">
+        <div class="date"></div>
+        <div>
+          <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo" height="30"></a>
+          <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="Twiter logo" height="30"></a>
+        </div>
+      </div>
+      <div id="bottonHeader">
+        <div id="logo">
+          <img src="images/logo.png" alt="logo of the Chamber of Commerce" height="80">
+          <div class="title">
+            <h1>Rexburg Chamber</h1>
+            <p>of Commerce</p></div> 
+          </div>
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+          <ul id="primaryNav">
+            <li class="active"><a href="#">Discovery</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+                   
           </ul>
-      </nav>
-      <p>DATE</p>
-      </header>
-
-      <main>
-
-      </main>
-      
-
+        </nav>
+      </div>
+    </header>
+    <main>
+       <section id="callToAction">
+         <img src="#" alt="hero image" height="100">
+         <h2>DISCOVER</h2>
+         <p>CALL TO ACTION</p>
+       </section>
+       <section id="event">
+         <h3>Event</h3>
+       </section>
+       <section id="weather">
+         <h3>Weather</h3>
+       </section>
+       <section id="news">
+         <h3>News Release</h3>
+       </section>
+       <section id="join">
+         <h3>Join</h3>
+       </section>
+       <section id="spotlight">
+         <h3>Spotlight 1</h3>
+         <h3>Spotlight 2</h3>
+       </section>
+    </main>
+    <footer>
+      <div id="topFooter">
+        <div id="firstSecFooter">
+          <img src="images/logo.png" height="60" alt="logo of rexburg chamber of commerce">
+          <div id="address">
+            <h4>Rexburg Chamber of Commerce</h4>
+            <p>80 S 6th W, Rexburg, ID</p>
+          </div>
+        </div>
+        <div id="secondSecFooter">
+          <p>contact@rexburgcc.org</p>
+          <p>+(208)-0000-888</p>
+          <a href="https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1nHyi_71Xq7QOoXMsQO2yohL_Hv0&ll=43.66386153021061%2C-111.9239585&z=10">Location Map</a>
+        </div> 
+      </div>
+      <div id="bottonFooter">
+        <div id="firstBottonFooter">
+          <h5>Rexburg Chamber</h5>
+          <span class="medium"> | </span>
+          <p class="myName">Nayade de la cruz </p>
+          <span class="medium"> | </span>
+          <p class="wdd">WDD 230 Project</p>
+          <span class="large"> | </span>
+        </div>
+        <span id="update">Last Modified</span>
+      </div>
+    </footer>
   </body>
-  <footer>
-
-  </footer>
 </html>

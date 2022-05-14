@@ -1,0 +1,65 @@
+@media only screen and (min-width: 64rem) {
+
+    nav button {display: none;}
+    
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,.3);
+    }
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,.3);
+    }
+
+ /* FOOTER */
+     
+    #bottonFooter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #firstBottonFooter span.large {
+        display: inline;
+        padding: 0 .5rem;
+    }
+
+   /*MAIN */
+   main {
+       grid-template-rows: 20rem 20rem 20rem;
+   }
+    
+   #event{
+       grid-column: 1/2;
+       grid-row: 1/2;
+   } 
+    #weather {
+       grid-column: 1/2;
+       grid-row: 2/3;
+    }
+
+    #join {
+       grid-column: 1/2;
+       grid-row: 3/4;
+    }
+
+    #callToAction {
+        grid-column: 2/4;
+       grid-row: 1/3;
+    }
+
+    #news {
+        grid-column: 2/4;
+       grid-row: 3/4;
+    }
+
+    #spotlight {
+        grid-column: 4/5;
+       grid-row: 1/4;
+    }
+    
+}
