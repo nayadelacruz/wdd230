@@ -180,11 +180,11 @@ h5{
 #firstBottonFooter span {
     display: none;
 }
-
+/* Main */
 main {
         display: grid;
-        grid-template-columns: 30rem;
-        grid-template-rows: 10rem 10rem 10rem 10rem 10rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
     }
 
 main section {
@@ -198,6 +198,174 @@ main section {
 #join {
     display: none;
 }
+
+/*   Section callToAction    */
+
+.heroImage {
+    width: 100%
+}
+#heroPara {
+    position: absolute;
+    top: 225px;
+    right: 30px;
+    color: white;
+    text-align: center;
+    /*background-color: rgba(7, 4, 95, 0.3);*/
+    padding: 10px;
+    
+}
+#callToAction h2 {
+    font-family: 'Koulen', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    padding: .5rem;
+
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    padding: .5em;
+    border-radius: 10px;
+    border: black 1px solid;
+}
+
+/* section Event */
+#event {
+   padding: 1rem;
+}
+
+#event span{
+    margin: 0 1rem;
+    padding: .5rem 0;
+    font-family: 'Koulen', cursive;
+}
+
+#event p {
+    margin: 0 1rem;
+    padding: .5rem 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event h3 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 1rem;
+    padding: .5rem 0;
+    font-size:1.5rem;
+}
+
+/*section weather */
+#weather {
+    margin: auto;
+    width: 20em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    /*background-color: rgba(7, 4, 95, 0.1)*/;
+}
+
+#weather h3{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: .5rem;
+}
+
+#weather img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: auto;
+}
+
+#celsious {
+    grid-column: 2/3;
+    grid-row:2/3;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}
+
+#cloudy{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0 1.5rem; 
+}
+
+#windSpeed {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+
+}
+
+/*section news */
+
+#news h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0;
+}
+
+#news p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+}
+/* spotlight */
+#spotlight {
+    text-align: center;
+}
+
+#spotlight h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+ #spotlight p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem; 
+ }
+
+  #firstSpotlight hr, #secondSpotlight hr {
+      margin: .5rem 1.5rem;
+      border: #121653 solid .2px;
+  }
+
+  #spotlight hr {
+    border: #121653 solid 1px;
+  }
+
+  #banner {
+      display: none;
+      margin: 0 auto;
+      border: 1px solid #121653;
+      background-color: white;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Koulen', cursive;
+  }
+
+
+
+  
+
+
 
 
 

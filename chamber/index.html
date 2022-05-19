@@ -21,6 +21,9 @@
    <script src="js/script.js" defer></script>
   </head>
   <body>
+    <div id="banner">
+      Come join us for the chamber meet and greet Wednesday at 7:00 p.m. <button id="close">X</button>
+    </div>
     <header>
       <div id="topHeader">
         <div class="date"></div>
@@ -39,7 +42,7 @@
         <nav>
           <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
           <ul id="primaryNav">
-            <li class="active"><a href="#">Discovery</a></li>
+            <li class="active"><a href="#">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Contact</a></li>
@@ -50,25 +53,53 @@
     </header>
     <main>
        <section id="callToAction">
-         <img src="#" alt="hero image" height="100">
-         <h2>DISCOVER</h2>
-         <p>CALL TO ACTION</p>
+         <img src="images/rexburgHero.jpeg" alt="image of RExburg Idaho at sunset" class="heroImage">
+         <div id="heroPara">
+          <h2>DISCOVER</h2>
+          <button class="button">Join the Chamber of Commerce</button></div>
        </section>
        <section id="event">
-         <h3>Event</h3>
+         <span>June 30, 5:00 P.M.</span>
+         <h3>2022 Rexburg Technology & Innovation Solution Festival</h3>
+         <span>Kenedy Elementary School, Gym </span>
+         <p>Agenda coming soon!staying on the forefront of game-changing and innovative business solutions is key to driving that momentum forward.</p>
+        
        </section>
        <section id="weather">
          <h3>Weather</h3>
+         <img src="images/cloudy.png" height="80" alt="the sun cover on clounds">
+        <span id="celsious">33°C</span>
+        <span id="cloudy">Partly Cloudy</span>
+        <hr>
+        <p id="windSpeed">wind speed: 2.5km/hr<br>wind child: N/A</p>
        </section>
        <section id="news">
          <h3>News Release</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, optio libero velit molestiae excepturi voluptatum alias mollitia culpa amet! Excepturi vel quo quaerat accusantium, omnis libero adipisci minus suscipit? Expedita odit praesentium error, omnis alias enim, eligendi cum quibusdam, commodi rem consequatur excepturi id nam quas recusandae laborum aperiam numquam?</p>
        </section>
        <section id="join">
-         <h3>Join</h3>
+         <button class="button">Join Us!</button>
+         <p class="paragraph">Discover how to join the Cahmber of Commerce and how it will benefit your organization!</p>
        </section>
        <section id="spotlight">
-         <h3>Spotlight 1</h3>
-         <h3>Spotlight 2</h3>
+         <div id="firstSpotlight">
+           <h3>Robert's Electrics</h3>
+           <img src="images/lightning.png" height="80" alt="lightning color yellow">
+           <p>Don't run out of light</p>
+           <hr>
+           <p>www.robertselectrics.com<br>
+           +(208)-543-0230</p></div>
+        <hr class="middle">
+        <div id="secondSpotlight">
+         <h3>Sheyla Salon</h3>
+         <img src="images/makeover.png" height="80" alt="girl with makeup">
+         <p> Highlighting the best of you</p>
+         <hr>
+         <p>
+           www.sheylasalon.com <br>
+           +(208)-947-9374
+         </p>
+        </div>
        </section>
     </main>
     <footer>
