@@ -5,8 +5,8 @@
     }
 
     main {
-        grid-template-columns: auto auto;
-        grid-row: auto 1fr;
+        grid-template-columns: auto 1fr;
+        grid-row: 1fr 1fr;
     }
 
     #title {
