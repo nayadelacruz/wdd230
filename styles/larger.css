@@ -6,7 +6,7 @@
 
     main {
         grid-template-columns: auto 1fr;
-        grid-row: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     #title {
