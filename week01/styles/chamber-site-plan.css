@@ -1,0 +1,50 @@
+/* Typography */
+body {
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Koulen', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    margin: 4rem;
+}
+
+header, main {
+    max-width: 1000px;
+}
+
+header {
+    background-color: #0a60af;
+    margin: 0;
+    padding: 2rem;
+}
+section {
+    background-color: #70ccf9;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 2rem;
+    
+}
+
+h1 {
+    text-align: center;
+    font:35px 'Koulen', sans-serif;
+}
+
+h2 {
+    text-align: left;
+    font: 25px 'Koulen', sans-serif;
+}
+
+header p {
+    text-align: center;
+    font: 30px 'Open Sans', sans-serif;
+}
+p {
+    text-align: left;
+    font: 20px 'Open Sans', sans-serif;
+}
+
+/* GREEN #0A5C36 
+    GREEN #0F5132
+    black 
+    white */
