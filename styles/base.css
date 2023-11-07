@@ -8,6 +8,7 @@ main,
 footer {
     max-width: 800px;
 }
+
 /* ------ HEADER ----- */
 header {
     display: flex;
@@ -16,7 +17,7 @@ header {
     align-items: center;
     background-color: #f4acb7;
     margin: 0;
-    
+
 }
 
 h1 {
@@ -24,14 +25,16 @@ h1 {
     padding: 1rem;
 }
 
-img{
+img {
     margin: 0;
     padding: 1rem;
 }
+
 /* ------ NAV ----- */
 nav {
     border: 2px solid black;
 }
+
 ul {
     margin-top: 0;
     padding: 1rem;
@@ -47,20 +50,22 @@ nav ul {
 }
 
 nav li {
-    
+
     padding: .5rem;
     list-style-type: none;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     color: black;
 }
+
 /* ------ MAIN ----- */
 main {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
+    background-color: white;
 }
 
 h2 {
@@ -90,6 +95,7 @@ h3 {
     margin: 0;
     padding: 1rem;
 }
+
 /* ------ FOOTER ----- */
 footer {
     background-color: #ffcad4;
