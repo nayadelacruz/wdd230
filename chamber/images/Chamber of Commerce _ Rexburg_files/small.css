@@ -1,0 +1,374 @@
+/****** Header ********/
+#topHeader {
+    background-color:#142456 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    color: white;
+    padding-left: 2vw;
+   
+}
+
+.date em {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#topHeader div {
+    padding-right: 2vw;
+    padding-top: 1vw;
+}
+
+#topHeader div img {
+    height: 30px;
+}
+#bottonHeader {
+    background-color: #121653;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-family: 'Koulen', cursive;
+    color: white; 
+    font-size: 2.5rem;
+    padding-left: 3px;
+    margin: 0;
+}
+
+div.title {
+    display: flex;
+    flex-direction: column;
+}
+
+div.title p {
+    font-style: italic;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-left: 3px;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav a {
+    color:white;
+}
+/* ------ Nav Menu ------- */
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+nav {
+    background-color: #121653;
+    text-align: center;
+    padding-right: 2vw;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 2.5rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top:1px solid rgba(0,0,0,.5);
+    text-align: center;
+    font-family: 'Koulen', cursive;
+}
+
+
+nav ul li.active a {
+    background-color: rgba(255,255,255,.9);
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,.7);
+    color: black;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* -------- Hamburger button --------*/
+
+nav ul {display: none;}
+nav ul.open { display: block;}
+
+#hamburgerBtn span:nth-child(1) {display:block}
+#hamburgerBtn span:nth-child(2) {display:none}
+
+#hamburgerBtn.open span:nth-child(1) {display:none}
+#hamburgerBtn.open span:nth-child(2) {display:block; min-width: 35rem;
+text-align: center;}
+
+#logo.open {display: none;}
+
+/* ------ Footer ------ */
+#topFooter {
+    background-color: #121653;
+    text-align: center;
+    color: white;
+    padding: 1vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+#bottonFooter {
+    background-color: #142456;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+}
+
+h4 {
+    padding-top: .5rem;
+    margin: 0;
+    font-family: 'Koulen', cursive;
+    font-size: 1.2rem;
+}
+
+#topFooter p {
+    padding-top: .5rem;
+    margin: 0;
+}
+ 
+#topFooter a {
+    padding-top: .7rem;
+    margin: 0;
+    color: white;
+}
+
+h5, .wdd, #update{
+    margin: 0;
+    padding-top: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+}
+
+h5{
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.myName {
+    margin: 0;
+    padding-top: 0;
+    font-family: 'Koulen', cursive;
+    font-size: 1.2rem;
+}
+
+#firstBottonFooter span {
+    display: none;
+}
+/* Main */
+main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+
+main section {
+    border-style: solid;
+    border-color: #121653;
+    border-width: 2px;
+    margin: 3px;
+}
+
+
+#join {
+    display: none;
+}
+
+/*   Section callToAction    */
+
+.heroImage {
+    width: 100%
+}
+#heroPara {
+    position: absolute;
+    top: 225px;
+    right: 30px;
+    color: white;
+    text-align: center;
+    /*background-color: rgba(7, 4, 95, 0.3);*/
+    padding: 10px;
+    
+}
+#callToAction h2 {
+    font-family: 'Koulen', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    padding: .5rem;
+
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    padding: .5em;
+    border-radius: 10px;
+    border: black 1px solid;
+}
+
+/* section Event */
+#event {
+   padding: 1rem;
+}
+
+#event span{
+    margin: 0 1rem;
+    padding: .5rem 0;
+    font-family: 'Koulen', cursive;
+}
+
+#event p {
+    margin: 0 1rem;
+    padding: .5rem 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#event h3 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 1rem;
+    padding: .5rem 0;
+    font-size:1.5rem;
+}
+
+/*section weather */
+#weather {
+    margin: auto;
+    width: 20em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    /*background-color: rgba(7, 4, 95, 0.1)*/;
+}
+
+#weather h3{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: .5rem;
+}
+
+#weather img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: auto;
+}
+
+#celsious {
+    grid-column: 2/3;
+    grid-row:2/3;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}
+
+#cloudy{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0 1.5rem; 
+}
+
+#windSpeed {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+
+}
+
+/*section news */
+
+#news h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0;
+}
+
+#news p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+}
+/* spotlight */
+#spotlight {
+    text-align: center;
+}
+
+#spotlight h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+ #spotlight p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem; 
+ }
+
+  #firstSpotlight hr, #secondSpotlight hr {
+      margin: .5rem 1.5rem;
+      border: #121653 solid .2px;
+  }
+
+  #spotlight hr {
+    border: #121653 solid 1px;
+  }
+
+  #banner {
+      display: none;
+      margin: 0 auto;
+      border: 1px solid #121653;
+      background-color: white;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Koulen', cursive;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
