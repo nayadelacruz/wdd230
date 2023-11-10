@@ -1,4 +1,7 @@
 @media screen and (min-width: 500px) {
+    header, nav, main, footer {
+        max-width: 1000px;
+    }
     nav ul {
         flex-direction: row;
         justify-content: space-evenly;
@@ -23,4 +26,18 @@
         grid-column: 2/3;
         grid-row: 2/3
     }
-}
+
+    /*nav responsive*/
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+    }
