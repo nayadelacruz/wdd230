@@ -28,7 +28,7 @@
 
 <body>
     <header>
-        <img src="images/nayade.jpeg" alt="Picture of Nayade De la cruz" height="200">
+        <img src="images/nayade.webp" alt="Picture of Nayade De la cruz" height="200">
         <h1>Nayade De la cruz</h1>
         <div id="mode">
             💡/🕶️
@@ -51,6 +51,16 @@
             <li><a href="">Form</a></li>
         </ul>
     </nav>
+    <div class="hero">
+        <picture>
+            <source srcset="images/veracruz-temple-small.webp" media="(max-width: 400px)">
+            <source srcset="images/veracruz-temple-larger.webp" media="(max-width: 600px)">
+            <img src="images/veracruz-temple-larger.webp" alt="Picture of the Veracruz, mexico Temple" width="960">
+        </picture>
+        <div class="herolabel">
+            <p>Veracruz, Mexico Temple</p>
+        </div>
+    </div>
     <main>
         <div id="title">
             <h2>WDD 230: Web Frontend Development</h2>
@@ -60,21 +70,17 @@
             <h3>Learning Activities</h3>
             <ul>
                 <li>Week 01: <a href="week01/holygrail.html">Holy Grail</a></li>
-                <li>Week 02: <a href="week2/design.html">Design Principles</a></li>
-                <li>Week 02: <a href="https://codepen.io/nayadelacruz/pen/zYeNPEL">Codepen</a></li>
-                <li>Week 02: <a href="week2/bom.html">Book of Mormon - Top10</a></li>
-                <li>Week 03: <a href="week03/images/landscape.webp">WebP</a></li>
-                <li>Week 03: <a href="week03/lazyload.html">Lazyload</a></li>
-                <li>Week 03: <a href="week03/responsive-images.html">Responsive Images</a></li>
-                <li>Week 03: <a href="week03/bom.html">Book of Mormon</a></li>
+                <li>Week 02: <a href="week2/design.html">Design Principles</a> | <a href="https://codepen.io/nayadelacruz/pen/zYeNPEL">Codepen</a> | <a href="week2/bom.html">BOM</a></li>
+                <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazyload</a> | <a href="week03/responsive-images.html">Responsive I.</a> | <a href="week03/bom.html">BOM</a></li>
             </ul>
         </section>
         <section class="card" id="secInfo">
             <h3>Information</h3>
             <p>Weather</p>
-            <p>Number of Visis</p>
+            <p><span class="label-visits">Number of Visits: </span><span class="visits"></span></p>
         </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22839.912149013027!2d-122.30804361661728!3d47.94394159893097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549001940139f34f%3A0xfa492b24dac4b511!2sLighthouse%20Park!5e0!3m2!1sen!2sus!4v1700171902399!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p id="year"></p>
         <p id="lastModified"></p>
@@ -82,6 +88,7 @@
     <script src="scripts/hamburguer-button.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/number-of-visits.js"></script>
 </body>
 
 </html>
