@@ -7,7 +7,7 @@ header, main, footer {
     max-width: 500px;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: 'Koulen', sans-serif;
 }
 
@@ -108,9 +108,9 @@ ul {
 	display: block;
 }
 
-.active::before {
+/*.active::before {
 	content: "📍 ";
-}
+}*/
 
 /*hero image-call to action */
 #actionCall{
@@ -187,4 +187,21 @@ footer {
 footer div p{
     text-align: center;
     color: white;
+}
+
+/* -----Discover ----- */
+#discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#discover div h4 {
+    text-align: center;
+}
+
+.galery img {
+    max-width: 300px;
+    margin: .5rem;
+    padding: .5rem;
 }

@@ -57,3 +57,31 @@
     }
 
 }
+
+/* -----DISCOVER ----- */
+#discover {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.galery {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.galery img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+.galery div, .galery h1, .galery p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sidebar {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
