@@ -56,53 +56,53 @@
         justify-content: space-between;
     }
 
-}
+
 
 /* -----DISCOVER ----- */
-#discover {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 1fr 1fr 1fr;
-}
+    #discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 150px 1fr 1fr 1fr;
+    }
 
-#headingDiscover{
-    grid-column: 2/4;
-    grid-row: 1/2;
-}
+    #headingDiscover{
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
 
-#boeing {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
+    #boeing {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
 
-#golf {
-    grid-column: 3/4;
-    grid-row: 2/3;
-}
+    #golf {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
 
-#park{
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
+    #park{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
 
-#chocolate {
-    grid-column: 3/4;
-    grid-row: 3/4;
-}
+    #chocolate {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
 
-#lighthouse{
-    grid-column: 2/3;
-    grid-row: 4/5;
-}
+    #lighthouse{
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
 
-#cruise {
-    grid-column: 3/4;
-    grid-row: 4/5;
-}
+    #cruise {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
 
-.galery img:hover {
-    box-shadow: 0 0 50px #333;
-}
+    main div img:hover {
+        box-shadow: 0 0 50px #333;
+        }
 
 /*.galery div, .galery h1, .galery p {
     display: flex;
@@ -110,8 +110,9 @@
     align-items: center;
 }*/
 
-#sidebar {
-    grid-column: 1/2;
-    grid-row: 1/3;
+    #sidebar {
+        grid-column: 1/2;
+        grid-row: 1/3;
     
+    }
 }
