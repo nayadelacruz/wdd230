@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukilteo Chamber of Commerce</title>
+    <meta name="description"
+        content="Chamber of commerce in Mukilteo Washington with the purpose to help local business to increase their network ang grow">
+    <meta name="author" content="Nayade De la cruz">
+    <!--Favicon-->
+    <link rel="icon" href="images/favicon.ico">
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/normalized.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Koulen&family=Open+Sans:wght@300&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <!--Social Media Meta-->
+    <meta property="og:title" content="Mukilteo Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mukilteohistorical.org/wp-content/uploads/2016/03/cropped-LH2.jpg">
+    <meta property="og:url" content="https://nayadelacruz.github.io/wdd230/chamber/index.html">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/favicon.ico" alt="Logo of the mukilteo Chamber of Commerce" height="50">
+            <p id="title">Mukilteo Chamber of Commerce</p>
+        </div>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html" title="Home" class="active">Home</a></li>
+                <li><a href="discover.html" title="Discover">Discover</a></li>
+                <li><a href="#" title="Directory">Directory</a></li>
+                <li><a href="join.html" title="Join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="join">
+        <section id="joinTitle">
+            <h1>Join Mukilteo Chamber of Commerce</h1></section>
+        <section id="form">
+            <h2>Apply Now!</h2>
+          <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <strong><label class="top">First Name*<input type="text" name="fname" required id="fname"></label></strong>
+                <label class="top">Last Name*<input type="text" name="lname" required id="lname"></label>
+                <label class="top">Title or Position<input type="text" name="position" id="position"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required id="email"></label>
+                <label class="top">Mobile Phone*<input type="tel" name="phone" placeholder="1235551234" required id="phone"></label>
+                <label class="top">Business/Organization's Name*<input type="text" name="business" required id="business"></label>
+              <div>     
+                Membership Level
+                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership is for non profit organizations and there is no fee.</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label></div>
+
+                <label class="top">Business/Organization's Description<textarea name="description" id="description"></textarea></label>
+                <label class="top"><input type="hidden" name="timestamp" id="timestamp"></label>
+            </fieldset>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
+          </form>
+        </section>
+        <section id="benefits">
+              <h2>Membership Benefits</h2>
+              <div class="division">
+                <h3>NP Membership </h3>
+                <p>It is for non-profit organizations and there is no fee.</p>
+                <ul>
+                    <li>Chamber events notificatios</li>
+                    <li>Trainig</li>
+                    <li>"Fair of Network Access"</li></ul></div>
+              <div class="division">
+                <h3>Bronze Membership</h3>
+                <p>$20 monthly</p>
+                <ul>
+                    <li>Chamber events notificatios</li>
+                    <li>Trainig</li>
+                    <li>"Fair of Network" Access</li>
+                    <li>Adverticing through emil to other members</li>
+                    <li>"How to grow my bussiness" Conference</li></ul>  </div>      
+              <div class="division">
+                <h3>Silver Membership</h3>
+                <p>$40 monthly</p>
+                <ul>
+                    <li>Chamber events notificatios</li>
+                    <li>Trainig</li>
+                    <li>"Fair of Network" Access</li>
+                    <li>Adverticing through emil to other members and through Chamber of Commerce Website</li>
+                    <li>"How to grow my bussiness" Conference with entrance to QA sections</li></ul> </div>
+              <div class="division">
+                <h3>Gold Membership</h3>
+                <p>$60 monthly</p>
+                <ul>
+                    <li>Chamber events notificatios</li>
+                    <li>Trainig</li>
+                    <li>"Fair of Network" Access</li>
+                    <li>Adverticing through emil to other members and through Chamber of Commerce Website</li>
+                    <li>"How to grow my bussiness" Conference with entrance to QA section</li>
+                    <li>Access to the Golden Networking Program and Training</li>
+                    <li>One-on-one monthly meeting with Chamber of Commerce President to help with grow</li></ul>  
+                </div>
+        </section>
+        </main>
+    <footer>
+        <div id="contact">
+            <p>adress</p>
+            <p>email</p>
+            <p>phone number</p>
+        </div>
+        <div>
+            <p id="name"></p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/lastUpdate.js"></script>
+    <script src="scripts/smallMenu.js"></script>
+</body>
+
+</html>

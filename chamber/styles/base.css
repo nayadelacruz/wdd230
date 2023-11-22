@@ -170,7 +170,7 @@ h2{
 }
 
 /*-- Business Spotligt --*/
-.businessSpotlight div {
+.division {
     border: #0A60AF solid 1px;
     margin: 5px;
     padding: 10px;
@@ -204,4 +204,88 @@ footer div p{
     max-width: 300px;
     margin: .5rem;
     padding: .5rem;
+}
+
+/* ------ Join -----*/
+#join h1{
+    text-align: center;
+}
+
+main#join{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+form{
+    margin-bottom: 3rem;
+}
+form fieldset {
+    border: 2px solid #0A60AF;
+    border-radius: 10px;
+    background-color: #eaeef1;
+    
+}
+
+legend {
+    color:#121653;
+    font-family: 'Koulen', sans-serif;
+    font-size: 1.3rem;
+}
+form label, fieldset div {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    
+}
+form label.top, form label textarea, fieldset div{
+    padding-bottom: 1rem;
+    display: block;
+}
+
+form label.top input{
+    display: block;
+}
+
+form label.sbs{
+    display: block;
+    padding-bottom: .5rem;
+    font-weight: lighter;
+}
+
+fieldset div label{
+    font-size: 1rem;
+}
+
+fieldset div label:nth-child(1){
+   padding-top: .5rem;
+}
+
+form label.top input, form label textarea{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 2px;
+    border: .5px solid #0A60AF;
+}
+form label.top input:required {
+    border-left: red solid 3px;
+}
+
+form label textarea{
+    height: 200px;
+    margin-top: .5rem;
+}
+
+.submitBtn {
+    padding: .5rem .75rem;
+    background-color: #0A60AF;
+    width: 100%;
+    max-width: 300px;
+    color: white;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+
 }

@@ -115,4 +115,34 @@
         grid-row: 1/3;
     
     }
+
+    /* --- JOIN -------------*/
+    main#join{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5rem 1fr;
+    }
+
+    #join section#joinTitle{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        margin-bottom: 2rem;
+    }
+    main#join section#form {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-right: 1rem;
+        margin-right: 1rem;
+    }
+    main#join section#benefits {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-left: 1rem;
+        margin-left: 1rem;
+    }
+
+    section#benefits h2{
+        margin-bottom: 2rem;
+    }
+
 }
