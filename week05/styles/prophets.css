@@ -1,0 +1,40 @@
+:root{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(188, 88, 238);
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: rgb(188, 88, 238);
+    text-decoration: underline;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p:first-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+p:last-of-type{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+section{
+    background-color:rgb(188, 88, 238, .1) ;
+    padding: 2rem 2rem;
+    margin: .5rem;
+    border: 1px solid rgb(188, 88, 238);
+}
+/* ---------GRID WITH AUTO-FIT---------*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
