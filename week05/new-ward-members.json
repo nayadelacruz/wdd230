@@ -1,0 +1,23 @@
+{
+    "familyName" : "Aguilar",
+    "movingDate" : "November 24",
+    "numberFamMembers": 3,
+    "visitedbyBishopric": "yes",
+    "indivisualMembers" : [
+        {
+            "name" : "Laura",
+            "gender" : "Woman",
+            "birthdate" : "March 15"
+        },
+        {
+            "name" : "John",
+            "gender" : "Man",
+            "birthdate" : "October 15"
+        },
+        {
+            "name" : "Luis",
+            "gender" : "Men",
+            "birthdate" : "June 15"
+        }
+    ]
+}
