@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD230 - FORM</title>
+    <meta name="description"
+        content="Course assigment FORM for WDD 230 - Web Fronted Development class by Nayade De la cruz">
+    <meta name="author" content="Nayade De la cruz">
+    <!-- STYLES-->
+    <link rel="stylesheet" href="styles/normalized.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- Open Graph meta properties-->
+    <meta property="og:title" content="Nayade De la cruz - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://d3mqmy22owj503.cloudfront.net/05/500005/images/site_graphics/Lighthouse-Park.jpg">
+    <meta property="og:url" content="https://nayadelacruz.github.io/wdd230/">
+</head>
+
+<body>
+    <header>
+        <img src="images/nayade.webp" alt="Picture of Nayade De la cruz" height="200">
+        <h1>Nayade De la cruz</h1>
+        <div id="mode">
+            💡/🕶️
+        </div>
+    </header>
+    <!--<nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+    </nav> -->
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+    </nav>
+    <main id="form">
+        <div id="formmessage"></div>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Form</legend>
+                <label class="top">Username*<input type="text" id="username" name="username" required></label>
+                <label class="top">Password* <input type="password" id="password" name="password" required pattern="[A-Za-z]{8,}"></label>
+                <label class="top">Confirm Password* <input type="password" id="password2" name="password2" required pattern="[A-Za-z]{8,}"></label>
+                <label class="top">Email <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+                <label class="top">Page Rating</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </datalist>
+
+            </fieldset>
+            <input type="submit" value="Propose My Course" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p id="year"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/hamburguer-button.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/number-of-visits.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>

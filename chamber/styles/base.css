@@ -216,6 +216,7 @@ main#join{
     flex-direction: column;
     padding: .5rem;
 }
+
 form{
     margin-bottom: 3rem;
 }

@@ -1,0 +1,94 @@
+/* -------FORM --------*/
+#formmessage {
+	visibility: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
+
+#keyphrase:invalid {
+	background-color: #fff0f3;
+	animation: shaketext 500ms;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 0;
+	width: 300px;
+	font-size: small;
+
+}
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
+/* ---------------------- */
+:root{
+	margin: 0 2rem;
+	color: black;
+	font-size: medium;
+}
+
+main{
+    margin: 1rem 2rem;
+}
+
+input#r {
+    width: 265px;
+    text-align: left;
+}
+
+form fieldset {
+    border: 2px solid #f4acb7;
+    border-radius: 10px;
+    background-color: #eaeef1;   
+}
+
+legend {
+    font-family: 'Koulen', sans-serif;
+    font-size: 1.3rem;
+	text-align: left;
+}
+
+form label, fieldset div {
+    font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+form label.top, fieldset div{
+    padding-bottom: 1rem;
+    display: block;
+}
+
+form label.top input{
+    display: block;
+}
+
+fieldset div label:nth-child(1){
+   padding-top: .5rem;
+}
+
+form label.top input{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 2px;
+    border: .5px solid #f4acb7;
+}
+
+form label.top input:required {
+    border-left: red solid 3px;
+}
+
+.submitBtn {
+    padding: .5rem .75rem;
+    background-color: #f4acb7;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+	margin-bottom: 2rem;
+}
+

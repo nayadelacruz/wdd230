@@ -40,4 +40,10 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+    /* ----FORM---- */
+    main#form{
+        display: block;
+        width: 100%;
+        max-width: 350px;
+    }   
     }
