@@ -1,0 +1,92 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links":[
+                {
+                "url":"week01/holygrail.html",
+                "title":"Holy Grail"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [{
+                "url":"week2/design.html",
+                "title": "D Principels"
+            }, 
+            { 
+                "url": "https://codepen.io/nayadelacruz/pen/zYeNPEL",
+                "title": "CodePen"      
+            },
+            {
+                "url": "week2/bom.html",
+                "title": "BOM"
+            }
+        ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url":"week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "LazyLoad"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title": "Responsive I."
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "BOM"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links":[
+                {
+                    "url": "https://codepen.io/nayadelacruz/pen/QWYmwQz",
+                    "title": "CodePen"
+                },
+                {
+                    "url":"week04/images/combinators.png",
+                    "title":"Combinators"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title": "Table"
+                },
+                {
+                    "url":"week04/form-start/index.html",
+                    "title":"Form"
+                }
+            ]
+        },
+        {
+            "week":"Week 05",
+            "links":[
+                {
+                    "url": "https://codepen.io/nayadelacruz/pen/PoVapRp",
+                    "title":"CodePen"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "Jason"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title":"Prophets"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather"
+                }
+            ]
+        }
+    ]
+}
