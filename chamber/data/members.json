@@ -1,0 +1,69 @@
+names,
+addresses,
+phone numbers,
+website URLs,
+image or icon file names,
+membership level, and
+other information you deem appropriate.
+Business/Organization's Name
+{
+    "members":[
+        {
+            "business":"Fragile Fit Alterations",
+            "name":"Fragile Fit Alterations",
+            "address":"",
+            "phone":"",
+            "url":"",
+            "image":"",
+            "membership":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phone":"",
+            "url":"",
+            "image":"",
+            "membership":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phone":"",
+            "url":"",
+            "image":"",
+            "membership":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phone":"",
+            "url":"",
+            "image":"",
+            "membership":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phone":"",
+            "url":"",
+            "image":"",
+            "membership":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phone":"",
+            "url":"",
+            "image":"",
+            "membership":""
+        },
+        {
+            "name":"",
+            "address":"",
+            "phone":"",
+            "url":"",
+            "image":"",
+            "membership":""
+        }
+    ]
+}
