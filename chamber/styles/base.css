@@ -290,3 +290,66 @@ form label textarea{
     font-family: 'Open Sans', sans-serif;
 
 }
+
+/* ----------DIRECTORY -------------*/
+/*    -----GRID-----       */
+#directory.grid{
+    display: grid;
+    padding: 5px;
+}
+
+#directory.grid section{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    border: #121653 solid 1.5px;
+    margin: 5px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#directory.grid img {
+    width: 250px;
+    padding-top: 10px;
+}
+
+#directory.grid h2{
+    display: none;
+}
+
+#directory.grid p{
+    margin: 0;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+/*     -----LIST------     */
+#directory.list{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+
+}
+
+#directory.list section{
+    border: none;
+    width: 400px;
+    padding: 15px;
+}
+
+#directory.list img{
+    display: none;
+}
+
+#directory.list section:nth-child(even){
+    background-color: rgba(10, 96, 175,.1);
+}
+
+#directory.list section:nth-child(odd){
+    background-color: rgba(10, 96, 175,.3);
+}
+
+
+
