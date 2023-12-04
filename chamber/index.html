@@ -25,6 +25,11 @@
 </head>
 
 <body>
+    <!-- Banner HTML -->
+  <div class="banner" id="banner">
+    <p>Attend the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m!</p>
+    <button id="closeBanner">X</button>
+  </div>
     <header>
         <div id="logo">
             <img src="images/favicon.ico" alt="Logo of the mukilteo Chamber of Commerce" height="50">
@@ -42,9 +47,9 @@
     </header>
     <main id="home">
         <section class="heroImage">
-            <img src="images/lighthouse-mukilteo.jpeg" alt="picture of the lighthose in mukilteo Washington" width="500">
+            <img src="images/everett.webp" alt="picture of the lighthose in mukilteo Washington" width="500">
             <div id="actionCall">
-                <h1>It's a good time to be part of Mukilteo Chamber of commerce</h1>
+                <h1>Join the Chamber!</h1>
                 <button id="actionCallButton">Learn how</button>
             </div>
         </section>
@@ -63,16 +68,10 @@
             </div>
         </section>
         <section id="businessSpotlight">
-            <div id="business1" class="division">
-                <h3>Ambers Salon</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis nisi eum at.</p>
-            </div>
-            <div id="business2" class="division">
-                <h3>Rhythm and Blues</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis nisi eum at.</p>
-            </div>
             <div id="weather" class="division">
-                <h2>Weather</h2>
+                <p>The current temperature in Mukilteo, WA is <br><span id="current-temp"></span>-<span id="tempDesc"></span></p>
+        <figure>
+            <img id="weather-icon" src="#" alt=""></figure>
             </div>
         </section>
     </main>
@@ -89,6 +88,9 @@
     </footer>
     <script src="scripts/lastUpdate.js"></script>
     <script src="scripts/smallMenu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 
 </html>

@@ -1,10 +1,11 @@
 body {
     background-color: white;
-    margin: 4rem;
 }
 
 header, main, footer {
-    max-width: 500px;
+    width: 100%;
+    /*max-width: 500px;*/
+    margin: 0;
 }
 
 h1, h2, h3, h4{
@@ -19,6 +20,27 @@ button {
     border-radius: 5px;
     border: #121653 2px solid;
     font-size: 1rem;
+}
+
+/* ---- BANNER ----- */
+.banner {
+    width: 100%;
+    padding: 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#closeBanner{
+    padding: 5px;
+    margin: 10px;
+    font-weight: 300;
+    color: red;
+    background-color: none;
+    border: none;
 }
 
 /* HEADER */
@@ -148,20 +170,24 @@ ul {
 .heroImage img {
     grid-column: 1/5;
     grid-row: 1/5;
-    max-width: 500px;
+    /*max-width: 500px;*/
+    width: 100%;
 }
 
 .heroImage div {
-    grid-column: 2/5;
-    grid-row: 3/5;
-    padding-inline: 1.5rem;
-    margin: .5rem;
-    /*background-color:rgba(10,96,175,0.4);*/
+    grid-column: 1/5;
+    grid-row: 1/5;
+    /*padding-inline: 1.5rem;*/
+    margin: 0;
+    background-color:rgba(10,96,175,0.4);
 }
 /* ---Events--- */
 h2{
     text-align: center;
 }
+
+section.events {
+    height: 300px;}
 
 .events div {
     border: #0A60AF solid 1px;
@@ -174,6 +200,9 @@ h2{
     border: #0A60AF solid 1px;
     margin: 5px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* footer */
