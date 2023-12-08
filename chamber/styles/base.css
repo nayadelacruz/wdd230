@@ -165,9 +165,8 @@ nav{
 	display: block;
 }
 
-/*.active::before {
-	content: "📍 ";
-}*/
+.active::before {
+	content: "📍 "}
 
 /*hero image-call to action */
 #actionCall{
