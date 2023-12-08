@@ -52,7 +52,7 @@ function displayMembers(membersList){
         website.textContent=member.url;
         website.href=member.url;
         let phone = document.createElement('p');
-        phone.textContent = member.phone;
+        phone.textContent = `Phone: ${member.phone}`;
         //append childs
         div.appendChild(img);
         div.appendChild(website);
